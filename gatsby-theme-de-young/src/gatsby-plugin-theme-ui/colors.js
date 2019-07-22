@@ -32,6 +32,7 @@ export default {
       text: `#fff`,
       background: gray(15),
       primary: `#f55921`,
+      highlight: `hsla(208, 30%, 64%, 0.15)`,
       prism: {
         background: gray(5)
       },

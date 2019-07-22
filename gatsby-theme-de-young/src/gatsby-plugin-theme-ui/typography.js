@@ -5,8 +5,8 @@ let theme = {
   baseFontSize: `18px`,
   headerFontFamily: [`Alegreya Sans`, `sans-serif`],
   bodyFontFamily: [`Alegreya Sans`, `sans-serif`],
-  baseLineHeight: 1.45,
-  blockMarginBottom: 0.75
+  baseLineHeight: 1.42,
+  blockMarginBottom: 0.8
 };
 
 export default toTheme(theme);
