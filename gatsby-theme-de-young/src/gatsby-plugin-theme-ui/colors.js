@@ -29,16 +29,13 @@ export default {
   },
   modes: {
     dark: {
-      // text: lightWhite,
-      // background: gray(15),
-      // prism: {
-      // background: gray(10)
-      // },
-      // primary: blue30,
-      // secondary: lightWhite,
-      // muted: opaqueLightWhite,
-      // highlight: blue60,
-      // heading: white
+      text: `#fff`,
+      background: gray(15),
+      primary: `#f55921`,
+      prism: {
+        background: gray(5)
+      },
+      secondary: `#88A5BF`
     }
   }
 };
