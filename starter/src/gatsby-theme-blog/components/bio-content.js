@@ -8,16 +8,15 @@ import { Link } from "gatsby";
 
 export default () => (
   <div>
-    <div sx={{ mb: 2 }}>
+    <Styled.p>
       Words by <Styled.a href="http://example.com/">Jane Doe</Styled.a>.
       <br />
       Change me. This is all quite default. If you'd like.
-    </div>
-    <div sx={{ mb: 0 }}>
-      TODO: make these p elements once gatsby-theme-blog is fixed.
+    </Styled.p>
+    <Styled.p>
       <Styled.a as={Link} to="/about">
         More about me
       </Styled.a>
-    </div>
+    </Styled.p>
   </div>
 );

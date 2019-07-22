@@ -17,7 +17,7 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
             <div>
               <Styled.h2
                 css={css({
-                  mb: 1
+                  mb: 0
                 })}
               >
                 <Styled.a

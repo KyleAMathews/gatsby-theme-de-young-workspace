@@ -4,19 +4,19 @@
   </a>
 </p>
 <h1 align="center">
-  gatsby-theme-cooper-hewitt
+  gatsby-theme-de-young
 </h1>
 
 ## Create a site from the starter
 ```shell
-gatsby new new-blog https://github.com/KyleAMathews/gatsby-starter-theme-cooper-hewitt
+gatsby new new-blog https://github.com/KyleAMathews/gatsby-starter-theme-de-young
 cd new-blog
 gatsby develop
 ```
 
 ## Structure
 
-The theme is in the `gatsby-theme-cooper-hewitt` directory.
+The theme is in the `gatsby-theme-de-young` directory.
 
 The starter is in the `starter directory`
 

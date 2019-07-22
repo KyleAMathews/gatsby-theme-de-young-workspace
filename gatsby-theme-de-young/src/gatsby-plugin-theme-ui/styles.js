@@ -2,6 +2,11 @@ export default {
   root: {
     fontFamily: `body`
   },
+  h1: {
+    // This shouldn't be needed but h1s aren't getting
+    // styled in components/headings as expected.
+    color: `secondary`
+  },
   pre: {
     variant: `prism`,
     fontFamily: `monospace`,
@@ -51,17 +56,11 @@ export default {
   blockquote: {
     marginLeft: 0,
     paddingLeft: 3,
-    borderLeft: theme => `${theme.space[2]}px solid ${theme.colors.highlight}`
-  },
-  "blockquote > *": {
-    fontStyle: `italic`
+    borderLeft: theme => `${theme.space[2]}px solid ${theme.colors.muted}`
   },
   "blockquote > h1, blockquote > h2, blockquote > h3, blockquote > h4": {
     marginTop: 0
   },
-  // "li > p": {
-  // marginBottom: rhythm(1 / 2)
-  // },
   "p code": {
     fontSize: "75%"
   },
