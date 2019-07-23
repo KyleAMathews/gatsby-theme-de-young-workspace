@@ -67,7 +67,7 @@ export default {
     }
   },
   blockquote: {
-    marginLeft: 0,
+    marginLeft: [-3, 0],
     paddingLeft: 3,
     borderLeft: theme => `${theme.space[2]}px solid ${theme.colors.muted}`
   },
