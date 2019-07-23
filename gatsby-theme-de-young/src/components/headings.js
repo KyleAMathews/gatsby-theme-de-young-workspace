@@ -35,8 +35,7 @@ const heading = Tag => props => (
       href={`#${props.id}`}
       css={css({
         ml: `-20px`,
-        pr: `4px`,
-        color: `secondary`
+        pr: `4px`
       })}
     >
       <LinkIcon />

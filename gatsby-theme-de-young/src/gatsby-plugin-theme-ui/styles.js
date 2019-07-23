@@ -3,8 +3,21 @@ export default {
     fontFamily: `body`
   },
   h1: {
-    // This shouldn't be needed but h1s aren't getting
-    // styled in components/headings as expected.
+    color: `secondary`
+  },
+  h2: {
+    color: `secondary`
+  },
+  h3: {
+    color: `secondary`
+  },
+  h4: {
+    color: `secondary`
+  },
+  h5: {
+    color: `secondary`
+  },
+  h6: {
     color: `secondary`
   },
   pre: {

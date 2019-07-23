@@ -22,9 +22,13 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
               >
                 <Styled.a
                   as={Link}
-                  css={{
-                    textDecoration: `none`
-                  }}
+                  css={css({
+                    textDecoration: `none`,
+                    color: `secondary`,
+                    "&, &:active, &:visited": {
+                      color: `secondary`
+                    }
+                  })}
                   to={node.slug}
                 >
                   {title}
