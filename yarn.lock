@@ -12181,11 +12181,6 @@ typeface-alegreya-sans@^0.0.72:
   resolved "https://registry.yarnpkg.com/typeface-alegreya-sans/-/typeface-alegreya-sans-0.0.72.tgz#5b63550f60a48a99b5630ead0cbe733e3bb32c6e"
   integrity sha512-W4JWZwG+4YoJF9RcEg0SFgzOVDxuctMSwcQD+ZoqdsR44+AXHLN9pZui1IC8JjGMt4KYI4LatFucenJ8aFZs/A==
 
-typeface-cooper-hewitt@^0.0.44:
-  version "0.0.44"
-  resolved "https://registry.yarnpkg.com/typeface-cooper-hewitt/-/typeface-cooper-hewitt-0.0.44.tgz#def4915d143bebb8a9a1ca4ea6b81946271a2a57"
-  integrity sha512-5TEnSbhWCnCQ25dGaFrSqCphJQoAaVeCuqmMMAXLK7uOiOn3YrMBdpq2nh4R6SEM+Z7FGYXZY7/Vdz/cDl06Ww==
-
 typeface-merriweather@0.0.72:
   version "0.0.72"
   resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.72.tgz#2b990f5293252052d51d170c82d3892319ff0555"
